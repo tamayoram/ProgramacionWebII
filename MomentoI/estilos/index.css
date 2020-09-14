@@ -3,10 +3,10 @@ body {
 }
 
 .jumbotron {
-  background-image: url("imagenes/Fondo.png");
+  background-image: url('/imagenes/Fondo.png');
   background-size: 100%;
   background-position-y: bottom;
-  color: white;
+  color:white;
   text-align: center;
 }
 
