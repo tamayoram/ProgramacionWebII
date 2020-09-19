@@ -14,15 +14,24 @@ body {
   text-align: center;
 }
 
+.ulPHP,.ulJS,.ulPython{
+  text-align:left;
+  list-style-type: circle;
+  margin: 0;
+  padding:5%;
+  
+}
+
 .card-text {
-  text-align: justify;
+  text-align: center;
+  
 }
 
 .card-img-top {
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
-  width: 150px;
+  width: 130px;
 
   display: block;
   margin-left: auto;
