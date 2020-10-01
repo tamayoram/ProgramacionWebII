@@ -49,7 +49,6 @@ function depurarDatos(datos){
  
     // Captura de la imagen, el título y el audio para la primera tarjeta 
 
-    
     let imagenTarjeta1=(datos.tracks[6].album.images[0].url);
     let tituloTarjeta1=(datos.tracks[6].name);
     let audioTarjeta1=(datos.tracks[6].preview_url);
@@ -85,6 +84,28 @@ function depurarDatos(datos){
     imagen2.src=imagenTarjeta2;
     titulo2.textContent=tituloTarjeta2;
     audio2.src=audioTarjeta2; 
+
+     // Inicia todo para la tercera tarjeta 
+
+    // Captura de la imagen, el título y el audio para la segunda tarjeta 
+
+    let imagenTarjeta3=(datos.tracks[8].album.images[0].url);
+    let tituloTarjeta3=(datos.tracks[8].name);
+    let audioTarjeta3=(datos.tracks[8].preview_url);
+    
+    //Captura de los elementos del DOM para la tercera tarjeta
+
+    let imagen3=document.getElementById("imagen3");
+    let titulo3=document.getElementById("titulo3");
+    let audio3=document.getElementById("audio3");
+
+    //Pasan las capturas a las variables de la tercera tarjeta
+
+    imagen3.src=imagenTarjeta3;
+    titulo3.textContent=tituloTarjeta3;
+    audio3.src=audioTarjeta3; 
+
+
 
     console.log(datos);
     console.log(datos.tracks);
