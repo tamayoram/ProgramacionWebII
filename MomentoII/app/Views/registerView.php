@@ -2,52 +2,43 @@
 
 
 
-<form class="mt-3" action="save.php" method="post" onsubmit="return validate();">
+<form class="mt-4" action="" method="" onsubmit="">
 
     <div class="form-group">
-        <label for="idDocument">Documento</label>
-        <input type="text" name="idDocument" class="form-control" id="idDocument" autofocus>
+        <label for="animalName">Nombre del animal</label>
+        <input type="text" name="animalName" class="form-control" id="animalName" placeholder="Ingrese nombre" autofocus>
     </div>
 
     <div class="form-row">
         <div class="form-group col-md-6">
-            <label for="name">Nombre</label>
-            <input type="text" name="name" class="form-control" id="name">
+            <label for="animalAge">Edad</label>
+            <input type="number" name="animalAge" class="form-control" placeholder="Ingrese edad" id="animalAge">
         </div>
         <div class="form-group col-md-6">
-            <label for="lastName">Apellido</label>
-            <input type="text" name="lastName" class="form-control" id="lastName">
+            <label for="animalType">Tipo de animal</label>
+            <select name="animalType" class="form-control" id="animalType">
+            <option>Doméstico</option>
+            <option>Fauna Silvestre</option>
+            </select>
         </div>
     </div>
 
     <div class="form-row">
         <div class="form-group col-md-6">
-            <label for="birth">Fecha de nacimiento</label>
-            <input type="date" name="birth" class="form-control" id="birth">
+            <label for="animalDescription">Descripción</label>
+            <textarea class="form-control" rows="4" id="animalDescription" placeholder="Principales apuntes del animal"></textarea>
         </div>
         <div class="form-group col-md-6">
-            <label for="phone">Celular</label>
-            <input type="text" name="phone" class="form-control" id="phone">
+            <label for="animalFood">Comida</label>
+            <input type="text" name="animalFood" class="form-control" id="animalFood" placeholder="Ingrese comida">
 
         </div>
     </div>
 
-
-    <div class="form-row">
-        <div class="form-group col-md-6">
-            <label for="city">Ciudad de residencia</label>
-            <input type="text" name="city" class="form-control" id="city">
-        </div>
-        <div class="form-group col-md-6">
-            <label for="district">Barrio</label>
-            <input type="text" name="district" class="form-control" id="district">
-
-        </div>
-    </div>
 
     <div class="form-group row">
         <div class="col-sm-10">
-            <button type="submit" class="btn btn-dark my-2">Agendar nueva cita</button>
+            <button type="submit" class="btn btn-dark my-2">Registrar animal</button>
 
         </div>
     </div>

@@ -1,6 +1,6 @@
 <?php namespace App\Controllers;
 
-class registerController extends BaseController
+class RegisterController extends BaseController
 {
 	public function index()
 	{

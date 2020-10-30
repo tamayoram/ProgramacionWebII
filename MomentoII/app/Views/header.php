@@ -16,28 +16,24 @@
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-        <a class="navbar-brand" href="#"><i class='fas fa-medkit' style='font-size:48px;color:white'></i></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
+        
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Ver citas en la agenda<span class="sr-only">(current)</span></a>
+                <li class="nav-item active m-1">
+                    <a class="nav-link" href="#"> <i class="fa fa-refresh m-1" style="font-size:35px"></i> Ver lista de animales</a>
                 </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#"><i class='far fa-clipboard' style='font-size:22px'></i> Agendar nueva cita</a>
+                <li class="nav-item active m-1">
+                    <a class="nav-link" href="#"><i class="fa fa-calendar-check-o m-1" style="font-size:35px"></i> Registrar un nuevo animal</a>
                 </li>
-
             </ul>
         </div>
     </nav>
-    <div class="container">
-        <div class="media border p-1 my-2">
+
+    <div class="container mt-4">
+        <div class="media border border-secondary rounded-sm p-2 my-2">
             <div class="media-body">
-                <h5>Centro Médico VIDA</h5>
+                <h4>Hogar Nuevo Porvenir</h4>
                 <p>Transversal 5 # 75D-124 Barrio Belén / Teléfono: 559 22 99 / Celular: (300) 5962788</p>
             </div>
-            <i class='fas fa-user-md mt-3 mr-2' style='font-size:36px'></i>
+            <i class="fa fa-paw" style='font-size:54px'></i>
         </div>
