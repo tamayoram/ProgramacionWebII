@@ -11,6 +11,10 @@
 
     <!--Iconos-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--Estilos-->
+    <link rel="stylesheet" href="<?php echo(base_url("public/styles/estilos.css")) ?>">
+
 </head>
 
 <body>
@@ -19,11 +23,15 @@
         
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
+            <li class="nav-item active m-1">
+                    <a class="nav-link" href="<?php echo(base_url("public/")) ?>"> <i class="fa fa-home" style="font-size:25px"></i> Inicio</a>
+                </li>
+
                 <li class="nav-item active m-1">
-                    <a class="nav-link" href="#"> <i class="fa fa-refresh m-1" style="font-size:35px"></i> Ver lista de animales</a>
+                    <a class="nav-link" href="#"> <i class="fa fa-refresh m-1" style="font-size:20px"></i> Ver lista de animales</a>
                 </li>
                 <li class="nav-item active m-1">
-                    <a class="nav-link" href="#"><i class="fa fa-calendar-check-o m-1" style="font-size:35px"></i> Registrar un nuevo animal</a>
+                    <a class="nav-link" href="<?php echo(base_url("public/Registroanimales")) ?>"><i class="fa fa-calendar-check-o m-1" style="font-size:20px"></i> Registrar un nuevo animal</a>
                 </li>
             </ul>
         </div>

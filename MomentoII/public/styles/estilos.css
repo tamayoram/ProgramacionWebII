@@ -1,0 +1,32 @@
+.carousel-inner img {
+    width: inherit;
+    height: 380px;
+  }
+
+  .carousel-caption h4 {
+    position: absolute;
+    bottom: 280px;
+    right: -150px;
+       
+  }
+
+  .carousel-caption p {
+    position: absolute;
+    bottom: 250px;
+    right: -150px;
+       
+  }
+
+  .presentation p{
+    color:black;
+    font-size: 150%;
+
+  }
+
+  body{
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      
+
+  }
+
+  
