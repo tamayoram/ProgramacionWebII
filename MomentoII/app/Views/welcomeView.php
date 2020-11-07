@@ -27,7 +27,7 @@
     <div class="carousel-item">
       <img src="<?php echo(base_url("public/img/Lagarto.jpg")) ?>" alt="Largartos en recuperación" >
       <div class="carousel-caption">
-        <h4>Reinserción de reptiles a su habitat natural</h4>
+        <h4>Reinserción de reptiles a su hábitat natural</h4>
         
       </div>   
 	</div>
@@ -43,7 +43,7 @@
 	<div class="carousel-item">
       <img src="<?php echo(base_url("public/img/Zarigueya1.jpeg")) ?>" alt="Largartos en recuperación" >
       <div class="carousel-caption">
-        <h4>Reinserción de fauna silvestre como la Zarigueya luego de su recuperación</h4>
+        <h4>Reinserción de fauna silvestre en sus zonas de origen</h4>
         
       </div>   
 	</div>
@@ -66,11 +66,19 @@
 </div>
 
 <div class="presentation mt-4">
-		<p>Somos una organización sin animo de lucro, dedicado al cuidado de fauna doméstica y silvestre que ha sufrido algún tipo de maltrato. El hogar Nuevo Porvenir es un lugar donde creemos en las nuevas oportunidades. </p>
+    <p>Somos una organización sin animo de lucro dedicada al cuidado de fauna doméstica y silvestre que ha sufrido algún tipo de maltrato. Nuestro equipo de trabajo tiene como objetivo brindar los mejores cuidados y atención aquellos animales que requieren ayuda, así como permitir un retorno sano y adecuado a su ambiente.</p>
+    
 </div>
 
-<a href="#" class="btn btn-dark" role="button">Ver lista de animales</a>
-<a href="<?php echo(base_url("public/Registroanimales")) ?>" class="btn btn-dark" role="button">Registrar un animal</a>
+<p class="phrase"> El Hogar Nuevo Porvenir es un lugar donde se brindan nuevas oportunidades para vivir.</p>
+
+<div class=" row mt-4">
+       
+      <a href="#" class="btn btn-dark mr-4" role="button">Ver lista de animales</a>
+      <a href="<?php echo(base_url("public/Registroanimales")) ?>" class="btn btn-dark" role="button">Registrar un animal</a>
+  
+</div>
+
 
 
 <?php include_once('footer.php'); ?>
