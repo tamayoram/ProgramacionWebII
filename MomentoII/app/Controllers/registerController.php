@@ -7,6 +7,13 @@ class RegisterController extends BaseController
 		return view('registerView');
 	}
 
+	public function save()
+	{
+		$name=$this->request->getPost("animalName");
+		echo($name);
+	}
+
 	//--------------------------------------------------------------------
 
 }
+

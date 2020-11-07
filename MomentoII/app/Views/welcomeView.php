@@ -13,46 +13,46 @@
     <div class="carousel-item active">
       <img src="<?php echo(base_url("public/img/Perros2.jpg")) ?>" alt="Aves liberadas">
       <div class="carousel-caption">
-        <h4>Recuperación de perros en condición de abandono</h4>
+        <h4>Recuperación de perros que sufrieron condición de abandono</h4>
         
       </div>   
     </div>
     <div class="carousel-item">
       <img src="<?php echo(base_url("public/img/Guacamaya1.jpg")) ?>" alt="Buhos en recuperación">
       <div class="carousel-caption">
-        <h3>Centro de recuperación</h3>
-        <p>Buhos en recuperación en el centro de nuestro hogar</p>
+        <h4>Guacamayas en recuperación luego de sufrir algún daño o herida</h4>
+        
       </div>   
     </div>
     <div class="carousel-item">
       <img src="<?php echo(base_url("public/img/Lagarto.jpg")) ?>" alt="Largartos en recuperación" >
       <div class="carousel-caption">
-        <h3>Centro de recuperación</h3>
-        <p>Lagos en recuperación luego de ser atacados por pescadores de la zona</p>
+        <h4>Reinserción de reptiles a su habitat natural</h4>
+        
       </div>   
 	</div>
 	
 	<div class="carousel-item">
       <img src="<?php echo(base_url("public/img/Ave1.jpg")) ?>" alt="Largartos en recuperación" >
       <div class="carousel-caption">
-        <h3>Centro de recuperación</h3>
-        <p>Lagos en recuperación luego de ser atacados por pescadores de la zona</p>
+        <h4>Recuperación de aves que han padecido algún ataque</h4>
+        
       </div>   
 	</div>
 	
 	<div class="carousel-item">
       <img src="<?php echo(base_url("public/img/Zarigueya1.jpeg")) ?>" alt="Largartos en recuperación" >
       <div class="carousel-caption">
-        <h3>Centro de recuperación</h3>
-        <p>Lagos en recuperación luego de ser atacados por pescadores de la zona</p>
+        <h4>Reinserción de fauna silvestre como la Zarigueya luego de su recuperación</h4>
+        
       </div>   
 	</div>
 
 	<div class="carousel-item">
       <img src="<?php echo(base_url("public/img/Gato1.jpg")) ?>" alt="Largartos en recuperación" >
       <div class="carousel-caption">
-        <h3>Centro de recuperación</h3>
-        <p>Lagos en recuperación luego de ser atacados por pescadores de la zona</p>
+        <h4>Centro de recuperación para gatos que han sido víctima de abuso</h4>
+        
       </div>   
 	</div>
 	
@@ -66,11 +66,11 @@
 </div>
 
 <div class="presentation mt-4">
-		<p>Somos una organización sin animo de lucro, dedicado al cuidado de fauna doméstica y silvestre que ha sufrido algún tipo de....</p>
+		<p>Somos una organización sin animo de lucro, dedicado al cuidado de fauna doméstica y silvestre que ha sufrido algún tipo de maltrato. El hogar Nuevo Porvenir es un lugar donde creemos en las nuevas oportunidades. </p>
 </div>
 
-<a href="<?php echo(base_url("public/Registroanimales")) ?>" class="btn btn-dark" role="button">Ver lista de animales</a>
-<a href="#" class="btn btn-dark" role="button">Registrar un animal</a>
+<a href="#" class="btn btn-dark" role="button">Ver lista de animales</a>
+<a href="<?php echo(base_url("public/Registroanimales")) ?>" class="btn btn-dark" role="button">Registrar un animal</a>
 
 
 <?php include_once('footer.php'); ?>

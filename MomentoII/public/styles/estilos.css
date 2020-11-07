@@ -17,15 +17,17 @@
        
   }
 
-  .presentation p{
-    color:black;
-    font-size: 150%;
-
-  }
+ 
 
   body{
       font-family: Georgia, 'Times New Roman', Times, serif;
       
+
+  }
+
+  .presentation p{
+    color:blue;
+    font-size: 100%;
 
   }
 

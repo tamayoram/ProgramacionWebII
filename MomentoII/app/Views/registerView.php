@@ -2,7 +2,7 @@
 
 
 
-<form class="mt-4" action="" method="" onsubmit="">
+<form class="mt-4" action="<?php echo(base_url("public/Registroanimales/guardar/")) ?>" method="POST">
 
     <div class="form-group">
         <label for="animalName">Nombre del animal</label>
