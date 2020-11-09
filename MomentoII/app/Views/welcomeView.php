@@ -74,7 +74,7 @@
 
 <div class=" row mt-4">
        
-      <a href="#" class="btn btn-dark mr-4" role="button">Ver lista de animales</a>
+      <a href="<?php echo(base_url("public/Listadoanimales")) ?>" class="btn btn-dark mr-4" role="button">Ver lista de animales</a>
       <a href="<?php echo(base_url("public/Registroanimales")) ?>" class="btn btn-dark" role="button">Registrar un animal</a>
   
 </div>

@@ -28,7 +28,7 @@
                 </li>
 
                 <li class="nav-item active m-1">
-                    <a class="nav-link" href="#"> <i class="fa fa-refresh m-1" style="font-size:20px"></i> Ver lista de animales</a>
+                    <a class="nav-link" href="<?php echo(base_url("public/Listadoanimales")) ?>"> <i class="fa fa-refresh m-1" style="font-size:20px"></i> Ver lista de animales</a>
                 </li>
                 <li class="nav-item active m-1">
                     <a class="nav-link" href="<?php echo(base_url("public/Registroanimales")) ?>"><i class="fa fa-calendar-check-o m-1" style="font-size:20px"></i> Registrar un nuevo animal</a>

@@ -33,6 +33,7 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'Home::index');
 $routes->get('/Registroanimales', 'RegisterController::index');
 $routes->post('/Registroanimales/guardar', 'RegisterController::save');
+$routes->get('/Listadoanimales', 'RegisterController::search');
 /**
  * --------------------------------------------------------------------
  * Additional Routing

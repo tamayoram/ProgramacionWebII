@@ -26,7 +26,7 @@
     <div class="form-row">
         <div class="form-group col-md-6">
             <label for="animalDescription">Descripción</label>
-            <textarea class="form-control" rows="4" id="animalDescription" placeholder="Principales apuntes del animal"></textarea>
+            <textarea class="form-control" rows="4" id="animalDescription" name="animalDescription" placeholder="Principales apuntes del animal"></textarea>
         </div>
         <div class="form-group col-md-6">
             <label for="animalFood">Comida</label>
