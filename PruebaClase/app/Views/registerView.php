@@ -55,7 +55,15 @@
             <input type="text" name="animalFood" class="form-control" id="animalFood" placeholder="Ingrese comida">
 
         </div>
+
+        
     </div>
+
+    <div class="row mt-3">
+                        <div class="col-12">
+                            <input type="text" class="form-control" placeholder="URL IMAGEN" name="foto">  
+                        </div>   
+        </div>
 
 
     <div class="form-group row">

@@ -16,13 +16,15 @@ class RegisterController extends BaseController
 		$tipo=$this->request->getPost("animalType");
 		$descripcion=$this->request->getPost("animalDescription");
 		$comida=$this->request->getPost("animalFood");
+		$foto=$this->request->getPost("foto");
 
 		$datos=array(
 			"nombre"=>$name,
 			"edad"=>$edad,
 			"tipo"=>$tipo,
 			"descripcion"=>$descripcion,
-			"comida"=>$comida
+			"comida"=>$comida,
+			"foto"=>$foto
 		);
 
 		//echo($descripcion);
@@ -68,6 +70,26 @@ class RegisterController extends BaseController
 
 
 
+
+	}
+
+	public function eliminar($id){
+		echo($id);
+
+		$modeloPersona=new Modelopersona();
+
+		try{
+
+			
+			$modeloPersona->where('id',$id)->delete();
+			echo("Registro eliminado");
+
+
+
+		} catch(\Exception $error){
+
+			die($error->getMessage());
+		}
 
 	}
 

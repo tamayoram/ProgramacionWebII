@@ -34,6 +34,7 @@ $routes->get('/', 'Home::index');
 $routes->get('/animales', 'RegisterController::index');
 $routes->post('/animales/registro', 'RegisterController::registrar');
 $routes->get('/animales/listado', 'RegisterController::buscar');
+$routes->get('/animales/eliminar/(:any)', 'RegisterController::eliminar/$1');
 /**
  * --------------------------------------------------------------------
  * Additional Routing

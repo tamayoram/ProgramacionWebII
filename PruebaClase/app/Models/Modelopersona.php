@@ -8,7 +8,7 @@ class Modelopersona extends Model
     protected $table= 'usuarios';
     protected $primaryKey= 'id';
 
-    protected $allowedFields= array('nombre', 'edad', 'tipo', 'descripcion', 'comida');
+    protected $allowedFields= array('nombre', 'edad', 'tipo', 'descripcion', 'comida','foto');
 
 
 }
