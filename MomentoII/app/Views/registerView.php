@@ -17,8 +17,8 @@
         <div class="form-group col-md-6">
             <label for="animalType">Tipo de animal</label>
             <select name="animalType" class="form-control" id="animalType">
-            <option>Doméstico</option>
-            <option>Fauna Silvestre</option>
+            <option value="0">Doméstico</option>
+            <option value="1">Fauna Silvestre</option>
             </select>
         </div>
     </div>
@@ -31,6 +31,8 @@
         <div class="form-group col-md-6">
             <label for="animalFood">Comida</label>
             <input type="text" name="animalFood" class="form-control" id="animalFood" placeholder="Ingrese comida">
+            <label for="animalFood">Imagen</label>
+            <input type="text" name="animalImage" class="form-control" id="animalImage" placeholder="Ingrese la URL de la imagen">
 
         </div>
     </div>

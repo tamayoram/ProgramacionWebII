@@ -16,13 +16,15 @@ class RegisterController extends BaseController
 		$type=$this->request->getPost("animalType");
 		$description=$this->request->getPost("animalDescription");
 		$food=$this->request->getPost("animalFood");
+		$image=$this->request->getPost("animalImage");
 		
 		$data=array(
 			"name"=>$name,
 			"age"=>$age,
 			"type"=>$type,
 			"description"=>$description,
-			"food"=>$food
+			"food"=>$food,
+			"image"=>$image
 		
 		);
 
@@ -61,6 +63,26 @@ class RegisterController extends BaseController
 
 			die($error->getMessage());
 		}
+
+	}
+
+	public function delete($id){
+
+		$animalModel=new AnimalModel();
+
+		try{
+
+			$animalModel->where('id',$id)->delete();
+
+			
+
+		}catch(\Exception $error){
+
+			die($error->getMessage());
+		}
+
+
+
 
 	}
 
