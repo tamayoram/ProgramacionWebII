@@ -81,9 +81,11 @@ class RegisterController extends BaseController
 			die($error->getMessage());
 		}
 
+	}
 
+	public function edit($id){
 
-
+		
 	}
 
 	//--------------------------------------------------------------------

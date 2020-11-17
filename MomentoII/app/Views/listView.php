@@ -24,9 +24,45 @@
                     <p class="card-text">Comida: <?php echo ($animal["food"]) ?> </p>
                     
                     <a href="<?php echo(base_url("public/Registroanimales/eliminar/".$animal["id"])) ?>" class="btn btn-dark mr-4" role="button">Eliminar</a>
+                   
+                    <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#editar<?php echo($animal["id"])?>"> Editar </button>
 
                 </div>
             </div>
+    
+                <div class="modal fade" id="editar<?php echo($animal["id"])?>" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Características del animal</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <form action="" method="POST">
+                                    <div class="form-group">
+                                        <label>Nombre:</label>
+                                        <input type="text" class="form-control" value="<?php echo ($animal["name"]) ?>"name="nameEdit">
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Edad:</label>
+                                        <input type="text" class="form-control" value="<?php echo ($animal["age"]) ?>" name="ageEdit">
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Descripcion:</label>
+                                            <textarea class="form-control" rows="3" name="descriptionEdit"><?php echo ($animal["description"]) ?></textarea>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Comida:</label>
+                                        <input type="text" class="form-control" value="<?php echo ($animal["food"]) ?>" name="foodEdit">
+                                    </div>
+                                    <button type="submit" class="btn btn-dark">Enviar</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
         </div>
 
     <?php endforeach ?>
