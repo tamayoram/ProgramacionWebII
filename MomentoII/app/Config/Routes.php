@@ -35,6 +35,7 @@ $routes->get('/Registroanimales', 'RegisterController::index');
 $routes->post('/Registroanimales/guardar', 'RegisterController::save');
 $routes->get('/Listadoanimales', 'RegisterController::search');
 $routes->get('/Registroanimales/eliminar/(:any)', 'RegisterController::delete/$1');
+$routes->post('/Registroanimales/modificar/(:any)', 'RegisterController::edit/$1');
 /**
  * --------------------------------------------------------------------
  * Additional Routing

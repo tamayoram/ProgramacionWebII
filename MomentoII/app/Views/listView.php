@@ -40,15 +40,43 @@
                                 </button>
                             </div>
                             <div class="modal-body">
-                                <form action="" method="POST">
+                                <form action="<?php echo(base_url("public/Registroanimales/modificar/".$animal["id"])) ?>" method="POST">
                                     <div class="form-group">
                                         <label>Nombre:</label>
                                         <input type="text" class="form-control" value="<?php echo ($animal["name"]) ?>"name="nameEdit">
                                     </div>
+                                    
                                     <div class="form-group">
                                         <label>Edad:</label>
                                         <input type="text" class="form-control" value="<?php echo ($animal["age"]) ?>" name="ageEdit">
                                     </div>
+                                <!--
+                                    <div class="form-group">
+                                        <label>Tipo:</label>
+                                        <select name="typeEdit" class="form-control">
+                                            <option>
+
+                                                <?php
+                                                    if ($animal["type"] == 0) {
+                                                        echo ("Doméstico");
+                                                    } else {
+                                                        echo ("Fauna Silvestre");
+                                                    }
+                                                ?>
+                                            
+                                            </option>
+                                            <option>
+                                                <?php
+                                                    if ($animal["type"] == 0) {
+                                                        echo ("Fauna Silvestre");
+                                                    } else {
+                                                        echo ("Doméstico");
+                                                    }
+                                                ?>
+                                            </option>
+                                        </select>
+                                    </div> -->
+
                                     <div class="form-group">
                                         <label>Descripcion:</label>
                                             <textarea class="form-control" rows="3" name="descriptionEdit"><?php echo ($animal["description"]) ?></textarea>
@@ -57,7 +85,7 @@
                                         <label>Comida:</label>
                                         <input type="text" class="form-control" value="<?php echo ($animal["food"]) ?>" name="foodEdit">
                                     </div>
-                                    <button type="submit" class="btn btn-dark">Enviar</button>
+                                    <button type="submit" class="btn btn-dark">Actualizar</button>
                                 </form>
                             </div>
                         </div>

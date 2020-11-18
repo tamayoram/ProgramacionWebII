@@ -41,7 +41,7 @@
         <div class="media border border-secondary rounded-sm p-2 my-2">
             <div class="media-body">
                 <h4>Hogar Nuevo Porvenir</h4>
-                <p>Transversal 5 # 75D-124 Barrio Belén / Teléfono: 559 22 99 / Celular: (300) 5962788</p>
+                <p>Sede administrativa -> Transversal 5 # 75D-124 Barrio Belén / Teléfono: 559 22 99 / Celular: (300) 5962788</p>
             </div>
             <i class="fa fa-paw" style='font-size:54px'></i>
         </div>

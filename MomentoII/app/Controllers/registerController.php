@@ -85,7 +85,37 @@ class RegisterController extends BaseController
 
 	public function edit($id){
 
+		$name=$this->request->getPost("nameEdit");
+		$age=$this->request->getPost("ageEdit");
+		$type=$this->request->getPost("typeEdit");
+		$description=$this->request->getPost("descriptionEdit");
+		$food=$this->request->getPost("foodEdit");
+
+		$data=array(
+			"name"=>$name,
+			"age"=>$age,
+			"type"=>$type,
+			"description"=>$description,
+			"food"=>$food
+					
+		);
+
+		$animalModel=new AnimalModel();
+
+		try{
+
+			$animalModel->update($id,$data);
+			echo("Updated");
+
+		}catch(\Exception $error){
+
+			die($error->getMessage());
+
+		}
+
+
 		
+
 	}
 
 	//--------------------------------------------------------------------
