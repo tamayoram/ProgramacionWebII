@@ -2,6 +2,21 @@
 
 
 
+<?php if(session('Message')):?>
+
+    <div class="alert alert-info alert-dismissible fade show" role="alert">
+        <?php echo(session('Message'))?>
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+
+
+<?php endif ?>
+
+
+
+
 <form class="mt-4" action="<?php echo(base_url("public/Registroanimales/guardar/")) ?>" method="POST">
 
     <div class="form-group">

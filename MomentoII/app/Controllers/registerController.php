@@ -34,7 +34,8 @@ class RegisterController extends BaseController
 		try{
 
 			$animalModel->insert($data);
-			echo("Success");
+			$message="El animal se agregó de forma exitosa";
+			return redirect()->to(base_url("public/Registroanimales"))->with('Message',$message);
 
 		}catch(\Exception $error){
 
