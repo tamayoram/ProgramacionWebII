@@ -12,9 +12,16 @@ class APIController extends ResourceController
         return $this->respond($this->model->findAll());
     }
 
-    //Ojo: buscar un solo animal
 
-    public function save(){
+    public function searchOne($id)
+    {
+        return $this->respond($this->model->find($id));
+    }
+
+    
+
+    public function save()
+    {
 
         $name=$this->request->getPost("name");
 		$age=$this->request->getPost("age");
