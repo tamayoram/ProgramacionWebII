@@ -32,12 +32,12 @@ class Validation
 
 	public $animalPOST=[
 
-			"name"=>'alpha|required',
-			"age"=>'required',
-			"type"=>'required',
-			"description"=>'required',
-			"food"=>'required',
-			"image"=>'required'
+			'name'=>'alpha|required',
+			'age'=>'required',
+			'type'=>'required',
+			'description'=>'required',
+			'food'=>'required',
+			'image'=>'required'
 
 
 	];
