@@ -34,6 +34,8 @@ $routes->get('/', 'Home::index');
 $routes->get('/animales/consultar', 'APIController::search');
 $routes->get('/animales/consultaUnica/(:any)', 'APIController::searchOne/$1');
 $routes->post('/animales/registrar', 'APIController::save');
+$routes->delete('/animales/eliminar/(:any)', 'APIController::del/$1');
+$routes->put('/animales/editar/(:any)', 'APIController::modify/$1');
 
 /**
  * --------------------------------------------------------------------

@@ -42,6 +42,17 @@ class Validation
 
 	];
 
+	public $animalPUT=[
+
+		'name'=>'alpha|required',
+		'age'=>'required',
+		'description'=>'required',
+		'food'=>'required'
+		
+
+
+];
+
 	//--------------------------------------------------------------------
 	// Rules
 	//--------------------------------------------------------------------
